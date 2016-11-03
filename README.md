@@ -4,4 +4,5 @@ To search Text files with content which is not provided by standard salesforce f
 To use just pass the search string.
 
 List<String> fileNames=FileContentSearcher.searchFilesContainingString('mkc');
+
 System.debug(fileNames);
